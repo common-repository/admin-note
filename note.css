@@ -1,0 +1,65 @@
+#note_table th, #note_table td{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+#note_table td{
+    padding: 10px 5px;
+}
+#note_table{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.cl1{width: 5%;}
+.cl2{width: 30%;}
+.cl3, .cl4, .cl5{width: 17%;}
+#note_table th{
+    background: #fff;
+}
+#note_table td{
+    background: #f9f9f9;
+}
+#note_table tr:nth-child(2n+1) td{
+    background: #fff;
+}
+.btn_submit{
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+.btn_submit_blue{
+    
+}
+.align-center{text-align: center;}
+.form-group{
+    padding-bottom: 5px;
+}
+.form-group label{
+    display: block;
+}
+.note a{
+    text-decoration: none;
+}
+#note_table .pagination{
+    text-align: right;
+}
+#note_table .pagination li{
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin: 0 2px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#note_table .pagination li a, #note_table .pagination li span{
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.loading{
+    display: none;
+}
+.loading td{
+    text-align: center;
+    margin-left: -10px;
+    background: #f9f9f9;
+}
